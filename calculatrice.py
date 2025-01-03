@@ -5,9 +5,9 @@ from kivy.uix.label import Label
 from kivy.uix.textinput import TextInput
 from kivy.uix.checkbox import CheckBox
 
-class Ex1(App):
+class Oui(App):
     def __init__(self, **kwargs):
-        super(Ex1, self).__init__(**kwargs)
+        super(Oui, self).__init__(**kwargs)
         self.operation = ""
     def build(self):
         layout = GridLayout(cols=2)
@@ -75,4 +75,4 @@ class Ex1(App):
 
 
 if __name__ == "__main__":
-    Ex1().run()
+    Oui().run()
