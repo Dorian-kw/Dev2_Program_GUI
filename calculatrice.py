@@ -1,3 +1,6 @@
+#Dorian Kwizera 2024
+#Programme avec interface graphique
+
 from kivy.app import App
 from kivy.uix.button import Button
 from kivy.uix.gridlayout import GridLayout
